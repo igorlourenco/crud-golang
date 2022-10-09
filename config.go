@@ -18,7 +18,7 @@ type Config struct {
 // this is the global variable that will be used to access the configurations
 var AppConfig *Config
 
-func loadAppConfig() {
+func LoadAppConfig() {
 
 	// using viper to load the configurations from the config.json file
 	log.Println("Loading server configurations...")
