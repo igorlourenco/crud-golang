@@ -1,0 +1,4 @@
+{
+  "connection_string": "host=localhost user=gorm password=gorm dbname=crudgolang port=5432 sslmode=disable",
+  "port": 8080
+}
